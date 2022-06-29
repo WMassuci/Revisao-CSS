@@ -1,0 +1,32 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  background-color: red;
+  flex-flow: wrap;
+}
+
+.container div{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container .box-1{
+  order: 3;
+  width: 20%;
+  flex-basis: 10;
+}
+
+.container .box-2{
+  order: 1;
+  width: 20%;
+  flex-basis: 10;
+}
+
+.container .box-3{
+  order: 2;
+  width: 20%;
+  flex-basis: 2;
+  align-self: flex-end;
+}
